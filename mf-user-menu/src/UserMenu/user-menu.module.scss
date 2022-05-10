@@ -1,0 +1,36 @@
+.userMenu {
+    width: 500px;
+    height: 100%;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    &__header {
+        color: white;
+        background-color: #1976d2;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid black;
+        border-end-end-radius: 5px;
+    }
+
+    &__label {
+        text-align: center;
+    }
+
+    &__avatar {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__infoWrapper {
+        color: #1976d2;
+        padding: 5px 30px 0 30px;
+    }
+
+    &__btnGroup {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
